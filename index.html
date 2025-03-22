@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Smith</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+</head>
+
+<body class="main">
+
+    <!--navbar section-->
+    <section class="header ">
+        <nav>
+
+            <!---navlinks--->
+            <div class="nav-links ">
+
+                <ul>
+                    <li><a href="#about">About </a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+    <div class="me">
+        <!---name/business name--->
+        <h1> Alex Smith</h1>
+        <!---picture--->
+        <a href="index.html "><img src="images/alex.jpeg "></a>
+    </div>
+    <!---about section--->
+    <div id="about">
+        <h2>About</h2>
+        <p>Hey, I'm Alex and ever since I can remember, I've always been one to see the brighter side of life. I aim to inspire, cultivate and bring out your inner strength mentally, pschologically and every other way I know how. I'm a mentor, a Motivational
+            Speaker and a Therapist.
+        </p>
+    </div>
+
+    <!---projects section--->
+    <div class="projects" id="projects">
+        <h2>MY PROJECTS</h2>
+    </div>
+    <section class="container">
+        <div class="projects-col">
+            <h3>REFORM PROJECT</h3>
+            <p>I was a key note speaker at the Kamiti Prison's reform program.</p>
+        </div>
+        <div class="projects-col">
+            <h3>LIFE OF A THINKER</h3>
+            <p>I am writing a book but it's still under production. It is going to be mindset shifting and take all readers to their great glory</p>
+        </div>
+        <div class="projects-col">
+            <h3>BEYOND LIMIT</h3>
+            <p>I co-authored this article published in 2024 on how we can live beyond our limit with the right mindest and motivation</p>
+        </div>
+    </section>
+    <section class="container2">
+        <div class="projects-col">
+            <h3>1000 BRIGHT</h3>
+            <p>In 2023, I pioneered a sponsorship program which sent 1000 financially disadvantaged students to high schools</p>
+        </div>
+        <div class="projects-col">
+            <h3>FRONT-PATH LEADERSHIP</h3>
+            <p>I did a merry go round to Kenyan Universities speaking on leadership and mentoring them on bettering their tomorrow</p>
+        </div>
+        <div class="projects-col">
+            <h3>STRUGGLES OF AN AFRICAN BOY</h3>
+            <p>I authored this article that was published by the Daily nation on 13th December, 2022</p>
+        </div>
+    </section>
+
+    <!---skills section--->
+    <div class="projects">
+        <h2>MY SKILLS</h2>
+    </div>
+    <section class="skills" id="skills">
+        <div class="skills-col">
+            <h3>Psychology</h3>
+        </div>
+        <div class="skills-col">
+            <h3>Mentorship</h3>
+        </div>
+        <div class="skills-col">
+            <h3>Mental Therapy</h3>
+        </div>
+        <div class="skills-col">
+            <h3>Leadership</h3>
+        </div>
+        <div class="skills-col">
+            <h3>Sociology</h3>
+        </div>
+        <div class="skills-col">
+            <h3>Theology</h3>
+        </div>
+    </section>
+
+
+    <!---footersection--->
+    <div class="footer" id="contact">
+        <div class="social-links">
+
+            <a href="contact-icon.html" target="_blank">
+                <img src="images/facebook.png " alt=" ">
+            </a>
+            <a href="contact-icon.html" target="_blank">
+                <img src="images/linkedin.png " alt=" ">
+            </a>
+            <a href="contact-icon.html" target="_blank">
+                <img src="images/twitter.png " alt=" ">
+            </a>
+            <a href="contact-icon.html" target="_blank">
+                <img src="images/tiktok.png " alt=" ">
+
+                <a href="contact-icon.html" target="_blank">
+                    <img src="images/instagram.png " alt=" ">
+                </a>
+        </div>
+
+        <button onclick="sorry() ">CONTACT ME</button>
+
+        <p>&copy; <span id="year"></span> Ann Wambui. All Rights Reserved. </p>
+    </div>
+</body>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        // Automatically update the copyright year
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+    });
+
+    function sorry() {
+        alert('Sorry, not a real person. this is a portfolio example')
+    }
+</script>
+
+</html>
